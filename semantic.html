@@ -1,0 +1,533 @@
+
+    <head>
+        <link rel="stylesheet" href="Semantic.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+          function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+    </head>
+    <body>
+     
+      
+      <section class="upperbody">
+        <div class="masthead">
+           <div class="menubar">
+             <img class="imagelogo" src="https://semantic-ui.com/images/logo.png">
+             <div id="mySidebar" class="sidebar">
+              <div class="scrollermenu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#" class="sidebarelement">UI Docs</a>
+                <a href="https://semantic-ui.com/introduction/getting-started.html" class="sidebarelement">Getting Started</a>
+                <a href="https://semantic-ui.com/introduction/new.html"class="sidebarelement">New in 2.4</a>
+                <a href="#"class="sidebarelement">Introduction</a>
+                <a href="https://semantic-ui.com/introduction/integrations.html" class="subelement">
+                    <b>Integration</b></a>
+                    <a href="https://semantic-ui.com/introduction/build-tools.html" class="subelement">
+                        Build Tools</a>
+                        <a href="https://semantic-ui.com/introduction/advanced-usage.html" class="subelement">
+                            Recipies</a>
+                            <a href="https://semantic-ui.com/introduction/glossary.html" class="subelement">
+                                Glossary</a>
+                <a href="#" class="sidebarelement">Usage</a>
+                <a href="https://semantic-ui.com/usage/theming.html" class="subelement">Theming</a>
+                <a href="https://semantic-ui.com/usage/layout.html" class="subelement">Layouts</a>
+                <a href="#" class="sidebarelement">Globals</a>
+                <a href="https://semantic-ui.com/globals/reset.html" class="subelement">Reset</a>
+                <a href="https://semantic-ui.com/globals/site.html" class="subelement">Site</a>
+                <a href="#" class="sidebarelement">Elements</a>
+                <a href="https://semantic-ui.com/elements/button.html" class="subelement">Button</a>
+                <a href="https://semantic-ui.com/elements/container.html" class="subelement">Container</a>
+                <a href="https://semantic-ui.com/elements/divider.html" class="subelement">Divider</a>
+                <a href="https://semantic-ui.com/elements/flag.html" class="subelement">Flag</a>
+                <a href="https://semantic-ui.com/elements/header.html" class="subelement">Header</a>
+                <a href="https://semantic-ui.com/elements/icon.html" class="subelement">Icon</a>
+                <a href="https://semantic-ui.com/elements/image.html" class="subelement">Image</a>
+                <a href="https://semantic-ui.com/elements/input.html" class="subelement">Input</a>
+                <a href="https://semantic-ui.com/elements/label.html" class="subelement">Label</a>
+                <a href="https://semantic-ui.com/elements/list.html" class="subelement">List</a>
+                <a href="https://semantic-ui.com/elements/loader.html" class="subelement">Loader</a>
+                <a href="https://semantic-ui.com/elements/placeholder.html" class="subelement">Placeholder</a>
+                <a href="https://semantic-ui.com/elements/rail.html" class="subelement">Rail</a>
+                <a href="https://semantic-ui.com/elements/reveal.html" class="subelement">Reveal</a>
+                <a href="https://semantic-ui.com/elements/segment.html" class="subelement">Segment</a>
+                <a href="https://semantic-ui.com/elements/step.html" class="subelement">Step</a>
+                <a href="#" class="sidebarelement">Collections</a>
+                <a href="https://semantic-ui.com/collections/breadcrumb.html" class="subelement">Breadcrumb</a>
+                <a href="https://semantic-ui.com/collections/form.html" class="subelement">Form</a>
+                <a href="https://semantic-ui.com/collections/grid.html" class="subelement">Grid</a>
+                <a href="https://semantic-ui.com/collections/menu.html" class="subelement">Menu</a>
+                <a href="https://semantic-ui.com/collections/message.html" class="subelement">Message</a>
+                <a href="https://semantic-ui.com/collections/table.html" class="subelement">Table</a>
+                <a href="#" class="sidebarelement">Views</a>
+                <a href="https://semantic-ui.com/collections/table.html" class="subelement">Advertisement</a>
+                <a href="https://semantic-ui.com/views/advertisement.html" class="subelement">Table</a>
+                <a href="https://semantic-ui.com/views/card.html" class="subelement">Card</a>
+                <a href="https://semantic-ui.com/views/comment.html" class="subelement">Comment</a>
+                <a href="https://semantic-ui.com/views/feed.html" class="subelement">Feed</a>
+                <a href="https://semantic-ui.com/views/item.html" class="subelement">Item</a>
+                <a href="https://semantic-ui.com/views/statistic.html" class="subelement">Statistic</a>
+                <a href="#" class="sidebarelement">Modules</a>
+                <a href="https://semantic-ui.com/modules/accordion.html" class="subelement">Accordian</a>
+                <a href="https://semantic-ui.com/modules/checkbox.html" class="subelement">Checkbox</a>
+                <a href="https://semantic-ui.com/modules/dimmer.html" class="subelement">Dimmer</a>
+                <a href="https://semantic-ui.com/modules/dropdown.html" class="subelement">Dropdown</a>
+                <a href="https://semantic-ui.com/modules/embed.html" class="subelement">Embed</a>
+                <a href="https://semantic-ui.com/modules/modal.html" class="subelement">Modal</a>
+                <a href="https://semantic-ui.com/modules/popup.html" class="subelement">Popup</a>
+                <a href="https://semantic-ui.com/modules/progress.html" class="subelement">Progress</a>
+                <a href="https://semantic-ui.com/modules/rating.html" class="subelement">Rating</a>
+                <a href="https://semantic-ui.com/modules/search.html" class="subelement">Search</a>
+                <a href="https://semantic-ui.com/modules/shape.html" class="subelement">Shape</a>
+                <a href="https://semantic-ui.com/modules/sidebar.html" class="subelement">Sidebar</a>
+                <a href="https://semantic-ui.com/modules/sticky.html" class="subelement">Sticky</a>
+                <a href="https://semantic-ui.com/modules/tab.html" class="subelement">Tab</a>
+                <a href="https://semantic-ui.com/modules/transition.html" class="subelement">Transition</a>
+                <a href="#" class="sidebarelement">Behaviors</a>
+                <a href="https://semantic-ui.com/behaviors/api.html" class="subelement">API</a>
+                <a href="https://semantic-ui.com/behaviors/form.html" class="subelement">Form Validation</a>
+                <a href="https://semantic-ui.com/behaviors/visibility.html" class="subelement">Visibility</a>
+              </div>
+            </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+                
+              </div>
+             <div class="btn-o" data-scribe="component:button" style="width: 73px;">
+             <span class="twitterlogo"></span></div>
+        <!--<img src="https://www.freeiconspng.com/uploads/twitter-logo-transparent-15.png" width=25px height=25px class="twitterlogo">-->
+        <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fsemantic-ui.com%2F&amp;
+        ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E
+        &amp;text=Semantic%20UI%202.0%20is%20out!&amp;url=http%3A%2F%2Fsemantic-ui.com&amp;via=semanticui" 
+        class="btn" id="b"><i class="fa fa-twitter">Tweet</i><span class="label" id="l"></span></a></div>
+             
+    <a class="gh-btn" href="https://github.com/semantic-org/semantic-ui" rel="noopener noreferrer" target="_blank" aria-label="Star semantic-org/semantic-ui on GitHub"><span class="gh-ico" aria-hidden="true"></span> <span class="gh-text">Star</span> </a>
+    <a class="gh-count" href="https://github.com/semantic-org/semantic-ui/stargazers" rel="noopener noreferrer" target="_blank" aria-label="50,481 stargazers on GitHub" style="display: block;">50,481</a>
+    
+
+          <i class="world icon"></i>
+          <div class="text">English</div>
+          
+    </div> <!-- masthead tag-->
+  
+<div class= "introduction">
+  <a class="ui black version label" href="https://github.com/Semantic-Org/Semantic-UI/blob/master/RELEASE-NOTES.md">
+        2.5.0
+      </a>
+  <br>
+  <h1 class="header">
+        <span class="library">
+           Semantic UI
+        </span>
+    <br>
+        <span class="tagline">
+          User Interface is the language of the web
+        </span>
+      </h1>
+  <div class="uihiddendivider"></div>
+  
+  <a href="/introduction/getting-started.html" class="getstartedbutton">
+        Get Started
+      </a>
+    <a href="/introduction/new.html" class="newin24">New in 2.4</a>
+  
+  
+</div>
+</div>
+  </section>
+  <br><br><br><br><br><br><br>
+  <img class="computerimg" src="https://semantic-ui.com/images/devices.png" alt="computer image">
+
+  <h1 class="designcontent">Design Beautiful Websites <br>&emsp;&emsp;   &emsp;&emsp;Quickly</h1>
+  <p class="para"> &emsp;&emsp;&emsp;&ensp;Semantic is a development framework that helps
+    <br>&emsp;&emsp;&emsp;&ensp;create beautiful, responsive layouts using human-
+    <br>&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&ensp;&ensp;friendly HTML.</p><br><br><br><br><br><br>
+  <section class ="middlecontent">
+    <section class="leftsection">
+      <p class="leftcontenthead"><font size="5">Concise HTML</font><br></p>
+      <p class="leftcontent">
+Semantic UI treats words and classes as exchangeable concepts.<br><br>
+
+Classes use syntax from natural languages like noun/modifier relationships, word order, and plurality to link concepts<br>intuitively.<br><br>
+
+      Get the same benefits as BEM or SMACSS, but without the <br>tedium.</p>
+    </section>
+    <section class="rightsection">
+      <section class="subsection">
+        <br>&ensp;
+        <code class="code xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui three buttons"</span>&gt;</span><br>
+&emsp;&ensp;&ensp;<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui active button"</span>&gt;</span>One<span class="tag">&lt;/<span class="title">button</span>&gt;</span><br>
+&emsp;&ensp;&ensp;<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui button"</span>&gt;</span>Two<span class="tag">&lt;/<span class="title">button</span>&gt;</span><br>
+&emsp;&ensp;&ensp;<span class="tag">&lt;<span class="title">button</span> <span class="attribute">class</span>=<span class="value">"ui button"</span>&gt;</span>Three<span class="tag">&lt;/<span class="title">button</span>&gt;</span><br>&ensp;
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span></code>
+      </section>
+      <div class="ui three buttons">
+&emsp;&emsp; <button class="ui active button">One</button>
+<button class="ui button">Two</button>
+<button class="ui button">Three</button>
+</div>
+    </section>
+    <hr 
+      align="center">
+      <br><br><br>
+      <section class="leftsectionsecond">
+        <p class="leftcontentheadsecond"><font size="5">Intuitive Javascript</font><br></p>
+        <p class="leftcontentsecond">
+Semantic uses simple phrases called behaviors that trigger<br>functionality.<br><br>
+
+Any arbitrary decision in a component is included as a setting<br>that developers can modify.<br><br>
+
+       </p>
+      </section>
+      
+      <section class="secondrightsection">
+        <section class="secondsubsection"><br>
+          <code class="code javascript">&emsp;&emsp;$(<span class="string">'select.dropdown'</span>)<br>
+  &emsp;&emsp;.dropdown(<span class="string">'set selected'</span>, [<span class="string">'meteor'</span>, <span class="string">'ember'</span>])<br>
+&emsp;&emsp;;</code>
+        </section><!-- second subsection tag-->
+        <section class="thirdsubsection">
+          <br>
+          <code class="code xml">&emsp;&emsp;<span class="tag">&lt;<span class="title">select</span> <span class="attribute">name</span>=<span class="value">"skills"</span> <span class="attribute">multiple</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui fluid dropdown"</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">""</span>&gt;</span>Skills<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"angular"</span>&gt;</span>Angular<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"css"</span>&gt;</span>CSS<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"ember"</span>&gt;</span>Ember<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"html"</span>&gt;</span>HTML<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"javascript"</span>&gt;</span>Javascript<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"meteor"</span>&gt;</span>Meteor<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;&emsp;&emsp;
+  <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"node"</span>&gt;</span>NodeJS<span class="tag">&lt;/<span class="title">option</span>&gt;</span><br>&emsp;&emsp;
+  <span class="tag">&lt;/<span class="title">select</span>&gt;</span></code>
+        </section><!-- third sub section of second sectiontag-->
+        <section class="scrollersection"> 
+        <div class="scroller">
+        Skills<br>Angular<br>CSS<br>Ember<br>HTML<br>JavaScript<br>Meteor<br>NodeJS
+             
+        </div></section>
+        <hr  class="secondhorizontal" align="center">
+      
+    
+  </section><!-- second right section tag-->
+  <section class="leftsectionthird">
+    <p class="leftcontentheadthird"><font size="5">Simplified Debugging</font><br></p>
+    <p class="leftcontentthird">
+      Performance logging lets you track down bottlenecks without<br>digging through stack traces.<br><br>
+      <div class="bluebox">
+        Don't have access to development tools right now? Check out this short clip.
+      </div>
+   </p>
+  </section>
+  <section class="thirdrightsection">
+    <section class="thirdrightsubsection">
+      <br>&ensp;
+      <code class="code xml">$(<span class="string">'.sequenced.images .image'</span>)<br>
+&emsp;&emsp;&emsp;.transition({<br>
+  &emsp;&emsp;&emsp;debug     : <span class="literal">true</span>,<br>
+  &emsp;&emsp;&emsp;animation : <span class="string">'jiggle'</span>,<br>
+  &emsp;&emsp;&emsp;duration  : <span class="number">500</span>,<br>
+  &emsp;&emsp;&emsp;interval  : <span class="number">200</span><br>
+&emsp;&emsp;&emsp;})<br>
+&emsp;&emsp;;</code>
+    </section>
+    <div class="images">
+&emsp;&emsp; 
+      <img class="imgone" src="https://semantic-ui.com/images/avatar2/large/elyse.png">
+      <img class="imgone" src="https://semantic-ui.com/images/avatar2/large/matthew.png">
+      <img class="imgone" src="https://semantic-ui.com/images/avatar2/large/kristy.png">
+</div>
+  </section>
+  </section><!-- middlecontent tag-->
+  
+  <div class="signup">
+    <br><br><br>
+   <p class="para2">Semantic is growing fast. Want to see just how much? Sign up and we'll let you know</p> <br>
+   <input class="email" type="text" name="email_address" data-validate="email" placeholder="E-mail">
+   <button type="submit" value="Subscribe" class="submit">
+    Sign-up
+  </button>
+  </div>
+  <br><br><br><br>
+  <section class="unbelievableicon">
+  <img class="pencil" src="https://semantic-ui.com/images/icons/theming.png">
+     <p class="unbelievablehead">Unbelievable Theming<br></p>
+    <p class="unbelievabletxt">
+      &emsp;Semantic comes equipped with an intuitive inheritance system and high &emsp;&emsp;level theming variables that let you have complete design freedom.<br><br>
+
+&emsp;&emsp;Develop your UI once, then deploy with the same code everywhere.
+    </p>
+ </section>
+  <section class="themebuttons">
+    <div class="dropdown">
+  <button class="dropbtn">Select Theme</button>
+  <div class="dropdown-content">
+  <a href="#">Semantic UI </a>
+  <a href="#">Amazon</a>
+  <a href="#">Google Material</a>
+    <a href="#">GitHub</a>
+    <a href="#">Bootstrap</a>
+    <a href="#">Twitter</a>
+    <a href="#">Raised</a>
+    <a href="#">Chubby</a>
+    <a href="#">Classic</a>
+  </div>
+    </div>
+      <hr class="themehr">
+    <button class="viewbtn"> <font font-size:14px> View</font></button>
+    <button class="cartbtn"> <font font-size:14px><i class="fas fa-cart-arrow-down">Add to Cart</i> </font></button>
+    <button class="savebtn"> <font font-size:14px> Save for Later</font></button>
+     <button class="ratebtn"> <font font-size:14px> Rate</font></button>
+     <div class="uimainbutton">
+      &emsp;&emsp; <button class="uifirstbutton">1</button>
+      <button class="uisecondbutton">2</button>
+      <button class="uithirdbutton">3</button>
+      </div>
+  </section>
+</section>
+
+<section class="panel"><br><br>
+  <section class="panelone">
+    
+    <img class="brushimg" src="https://semantic-ui.com/images/icons/paint.png"><br> <br>
+    <p class="theme"> 3000+ Theming Variables</p>
+    <p class="themetxt">The only dogma from this framework: <i>everything arbitrary is mutable.</i></p>
+    <br><button class="themebtn"> <font font-size:14px> Theming Guide</font></button>
+  </section>
+  <section class="paneltwo">
+    <img class="bookimg" src="https://semantic-ui.com/images/icons/book.png"><br><br>
+    <p class="theme"> 50+ UI Components</p>
+    <p class="themetxt">Build your entire site with one UI stack. Share your UI between multiple projects.</p>
+   <br><button class="browseui"> <font font-size:14px> Browse UI</font></button>
+  </section>
+  <section class="panelthree">
+     <img class="brushimg" src="https://semantic-ui.com/images/icons/lab.png"><br><br>
+    <p class="theme">5000+ Commits</p>
+    <p class="themetxt">Semantic UI is a <b>free open source</b> project already used in multiple <span class="colortext">large </span>scale <span class="colortext">production</span> environments.</p>
+    <button class="themebtn"> <font font-size:14px>Visit GitHub</font></button>
+  </section>
+</section>
+<div class="breadth">
+  <br><br><br><br><br><br><br>
+  <img class="caseimg" src="https://semantic-ui.com/images/icons/toolbox.png">
+  <p class="breadthtxt"> Unbelievable Breadth</p>
+  <p class="breadthpara">Definitions aren't limited to just buttons on a page. 
+    Semantic's components allow several distinct types of definitions: elements, collections, views,
+     modules and behaviors which cover the gamut of interface design.</p>
+     <button class="layoutbtn"><b>See Layout Examples</b></button>
+</div>
+<div class="menu">
+  <div class="verticalone">
+    <p class="verticalhead">Menu</p>
+  <div class=menusec><div class="inbox">Inbox</div><div class="inbox">Trash</div><div class="inboxlst">Search mail...</div>
+
+</div><br>
+<div class="tabone">Tab</div><div class="tabtwo">Tab</div>
+<div class="inboxone">Inbox</div><div class="inboxone">Starred</div><div class="inboxone">Trash</div>
+<div class="inboxtwo">Inbox</div><div class="inboxtwo">Starred</div><div class="inboxtwo">Trash</div><br><br>
+<p class="verticalhead">Divider</p>
+<div class="divider"><div class="a">A</div><div class="or">OR</div></div><div class="b">B</div><br><br><br><br>
+<p class="verticalhead">Accordian</p>
+<div class="accordian">
+  <div class=row> <a href="#hide1" class="hide" id="hide1">Size</a>
+    <a href="#show1" class="show" id="show1">Size</a><br>
+    <div class="list">
+    <input type="radio" id="small" name="fav_language" value="small">
+      <label for="small">Small</label><br>
+      <input type="radio" id="medium" name="fav_language" value="medium">
+      <label for="medium">Medium</label><br>
+      <input type="radio" id="large" name="fav_language" value="large">
+      <label for="large">Large</label><br>
+    <input type="radio" id="XLarge" name="fav_language" value="XLarge">
+      <label for="XLarge">X-Large</label><br></div>
+  
+    </div>
+    <div class="row">
+      <a href="#hide2" class="hideone" id="hide2">Colors</a>
+      <a href="#show2" class="showone" id="show2">Colors</a>
+      <div class="listone">
+        <input type="radio" id="red" name="fav_language" value="red">
+          <label for="red">Red</label><br>
+          <input type="radio" id="orange" name="fav_language" value="orange">
+          <label for="orange">Orange</label><br>
+          <input type="radio" id="green" name="fav_language" value="green">
+          <label for="green">Green</label><br>
+        <input type="radio" id="blue" name="fav_language" value="blue">
+          <label for="blue">Blue</label>
+      </div>
+    </div>
+      </div><br><br><br>
+
+      <p class="verticalhead">Message</p>
+      <div class="cookies">This site uses cookies</div><br><br>
+      <div class="help"><b>Looking for help?</b><ul>
+        <li>Use our <a href="https://semantic-ui.com/#">help center</a></li>
+        <li>Check our <span class="colortext">FAQ</span></li>
+        </ul></div><br><br>
+        <div class="profile"><b><font color="#0e566c">We're creating your profile page</font></b><br>
+          <font color="#276f86">It will be ready in just a second </font></div>
+      
+        </div>
+        <div class="verticaltwo">
+          <p class="verticalhead">Card</p>
+          <img class="rachelimg "src="https://semantic-ui.com/images/avatar2/large/rachel.png" > 
+          <div class="rachelmaddaw"><b>Rachel Maddaw</b><br><font color="lightgray" , size="2.9">Pundit</font>
+          <div class="frnd">22 Friends &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Joined in 1998</div>
+          </div><br><br>
+          <p class="verticalhead">Feed</p>
+          <img class="roundimg" src="https://semantic-ui.com/images/avatar2/small/mark.png"> 
+          <p class="mark"><b><font color="#4183c4">Mark </font></b>added you as a friend</p>
+          <img class="roundimg" src="https://semantic-ui.com/images/avatar2/small/lena.png"> 
+          <p class="mark">You added Lena to the group <font color="#4183c4">close friends </font></p>
+          <img class="roundimg" src="https://semantic-ui.com/images/avatar2/small/eve.png"> 
+          <p class="mark">Eve just <font color="#4183c4">posted on your page</font></p><br><br>
+          <p class="verticalhead">Label</p>
+          <img class="mollyimg" src="https://semantic-ui.com/images/avatar2/small/molly.png">
+          <div class="labelone">
+            molly@thebears.com</div>
+            <div class="labeltwo"><i class="fa-envelope"></i>&emsp;23 New</div><br>
+            <div class="labelthree">Dresses</div><br><br>
+            <p class="verticalhead">Step</p>
+            <div class="step"><b>
+              <div class="truckimg"><i class ="fa fa-truck" style="font-size: 2.73em;"></i></div>
+              <p class="shipping"><font size="3px">Shipping</font></b><br>
+                <font size="2px">Choose your shipping options</font></p>
+              <div class="steptwo"><div class="truckimg"><i class ="fa fa-credit-card" style="font-size: 2.73em;"></i></div>
+                <b><p class="shipping"><font size="3px">Billing</font></b><br>
+                  <font size="2px">Enter billing information</font></p>
+                  <!--&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size="3px">Billing</font></b><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size="2px">Enter the billing information</font>  --> 
+              </div>
+              <div class="truckimg"><i class ="fa fa-info" style="font-size: 2.73em;"></i></div>
+                <b><p class="shipping"><font size="3px">Confirm order</font></b><br>
+                  <font size="2px">Verify order details</font></p>
+              <div class="stepthree"></div>
+                 <div class="stepthree"      
+            </div>
+            <div class="verticalthree">
+             
+              <p class="verticalhead">Dropdown</p>
+              <div class="dropdown">
+              <button class="dropbtnone">Select Country</button>
+  <div class="dropdown-content">
+  <a href="#"> United Arab Emirates </a>
+  <a href="#">Argentina</a>
+  <a href="#"> India</a>
+    <a href="#">Afghanistan</a>
+    <a href="#">Australia</a>
+    <a href="#">Bangladesh</a>
+    <a href="#">Canada</a>
+    <a href="#">Chile</a>
+    <a href="#">Switzerland</a>
+  </div>
+</div>
+<div class="fill"></div>
+<div class="filter"><b>Filter Posts</b></div><br><br><br>
+<p class="verticalhead">Segment</p>  
+<div class="barone"><div class="inbarone"></div></div><br>
+<div class="barone"></div><br>
+<div class="bartwo"></div><br>
+<div class="barthree"></div><br>
+<div class="barfour"></div>
+<div class="barfive"></div> <div class="barsix"></div><br><br><br>
+<p class="verticalhead">Input</p>
+<div class="searchbtn">&emsp;&emsp;&emsp;Search...</div>
+<div class="greensearch">Search</div><br>
+<div class="http">http://</div>
+<div class="mysite">mysite.com</div><br>
+<div class="categories">Enter Categories</div>
+<div class="addtag">Add Tags</div><br><br>
+<p class="verticalhead">Checkbox</p>
+<div class="checkbox"><input type="checkbox" class="poi" id="fun" name="fun" value="Fun">
+  <label for="fun"> I enjoy having fun</label><br></div>
+  <!--Checkbox-->
+  <div class='sliding-switch-wrapper'>
+    <label class="sliding-switch" for="testing-checkbox">
+      <input type="checkbox" id="testing-checkbox" >
+      <div class="slider round"></div>
+    </label>
+  </div>
+  <div class="poodle">Recieve weekly poodle newsletter</div>
+
+  <div class='sliding-switch-wrapper'>
+    <label class="sliding-switch" for="testing-checkbox">
+      <input type="checkbox" id="testing-checkbox" >
+      <div class="slider round"></div>
+    </label>
+  </div>
+  <div class="poodle">Make my dog's profile public</div>
+    <!--Checkbox-->
+        </div>
+
+        </div></div>
+</div> <!--menu end-->
+<div class="response">
+  <div class="responseone">
+    <img class="mobileimg" src="https://semantic-ui.com/images/icons/mobile.png">
+    <p class="theme"> Responsively Designed </p>
+    <p class="themetxtone">Semantic is <b>designed completely with em</b> making responsive sizing a breeze.
+       Design variations built into elements allow you to make the choice how content adjusts for tablet
+        and mobile.</p>
+        <div class="responsebtn"><b> Responsive Examples</b></div>
+  </div>
+  <div class="responsetwo">
+    <img class="heartimg" src="https://semantic-ui.com/images/icons/heart.png">
+    <p class="theme">Partners with Libraries You Love</p>
+    <p class="themetxtone">Semantic has integrations with <b>React, Angular, Meteor, Ember </b> and many other
+       frameworks to help organize your UI layer alongside your application logic.</p>
+        <div class="responsebtn"><b> See Integration</b></div>
+     </div> 
+    </div> 
+    <div class="liberate"><br><br><br><br>
+      <img class="rocketimg" src="https://semantic-ui.com/images/icons/rocket.png">
+      <p class="breadthtxt"> Liberate your Development</p>
+      <p class="enterprise">Enterprise Ready</p>
+      <p class="enterprisepara">
+      Build tools, performance logging, support for custom definitions,<br>
+       multiple-levels of theme inheritance—a developer's dream.</p>
+       <div class="enterprisebtn"><b>Get Started Now</b></div>
+      </div>
+      <div class="footer"><br>
+      <div class="footersecone">
+      <p class="footerhead">Community</p>
+      <p class="footercontent"><a class="ope" href="https://explore.transifex.com/semantic-org/" >Help Translate</a><br>
+        <a class="ope" href="https://github.com/Semantic-Org/Semantic-UI/issues"> Submit an Issue</a><br>
+        <a class="ope" href="https://app.gitter.im/#/room/#Semantic-Org_Semantic-UI:gitter.im">Join our chat</a><br>
+        <a class="ope" href="https://semantic-ui.com/cla.html">CLA</a></p>
+      </div>
+      
+      <div class="footersectwo">
+      <p class="footerhead">Network</p>
+      <p class="footercontent"><a class="ope" href="https://github.com/Semantic-Org/Semantic-UI" >GitHub Repo</a><br>
+        <a class="ope" href="http://forums.semantic-ui.com/">User Forums</a><br>
+        <a class="ope" href="https://1.semantic-ui.com/">1.x Docs</a><br>
+        <a class="ope" href="https://legacy.semantic-ui.com/">0.x Docs</a></p>
+      </div>
+      
+      <div class="footersecthree">
+      <p class="footerhead">Help Preserve the project</p>
+      <p class="footercontent">Support for the continued development of Semantic UI comes directly 
+        from the community.</p>
+        <div class="donatebtn"><b>Donate Today</b></div>
+      </div>
+      <div class="lastsec"></div><br>
+      <div class="simg">
+      <img class="lstimg" src="https://semantic-ui.com/images/logo.png">
+      <p class="Mit">Free & open source (MIT)</p>
+      </div>
+      </div>
+      
+      
+      
+      
+      
+      
+  
+</body>
+  
